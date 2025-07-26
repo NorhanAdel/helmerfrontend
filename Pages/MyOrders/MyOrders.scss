@@ -1,0 +1,102 @@
+.my-orders {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+
+  h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .order-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    padding: 25px 30px;
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .order-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      span {
+        font-size: 16px;
+        color: #34495e;
+        font-weight: 500;
+      }
+
+      .status {
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+
+        &.قيدالانتظار {
+          background-color: #f39c12;
+        }
+
+        &.تمالتأكيد {
+          background-color: #2980b9;
+        }
+
+        &.جاريالتوصيل {
+          background-color: #8e44ad;
+        }
+
+        &.تمالتوصيل {
+          background-color: #27ae60;
+        }
+
+        &.تمالإلغاء {
+          background-color: #c0392b;
+        }
+      }
+    }
+
+    .order-items {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+
+      li {
+        font-size: 15px;
+        padding: 6px 0;
+        border-bottom: 1px solid #eee;
+        color: #555;
+      }
+    }
+
+    .order-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 14px;
+      color: #555;
+
+      span {
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .empty-orders {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    padding: 60px 0;
+  }
+}

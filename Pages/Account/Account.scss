@@ -1,0 +1,36 @@
+.account-page {
+  padding: 40px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #333;
+  }
+
+  .account-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 18px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+      &:hover {
+        background-color: #f3f3f3;
+      }
+
+      &.logout {
+        color: red;
+      }
+    }
+  }
+}
