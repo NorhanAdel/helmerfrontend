@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3353d28.css",
+    "main.js": "/static/js/main.59d1161e.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/pexels-pressmaster-3196176-3840x2160-25fps.mp4": "/static/media/pexels-pressmaster-3196176-3840x2160-25fps.7615a60c85e0673befb6.mp4",
+    "static/media/pexels-luna-lovegood-4474373-3840x2160-50fps.mp4": "/static/media/pexels-luna-lovegood-4474373-3840x2160-50fps.86eb160f54a47bb9837c.mp4",
+    "static/media/pexels-luna-lovegood-4473181-3840x2160-50fps.mp4": "/static/media/pexels-luna-lovegood-4473181-3840x2160-50fps.fc7d86d6c22e91757e54.mp4",
+    "static/media/video_2025-06-18_14-47-54.mp4": "/static/media/video_2025-06-18_14-47-54.2c3cd66dd734450baa72.mp4",
+    "static/media/08.07.2025_11.17.12_REC.png": "/static/media/08.07.2025_11.17.12_REC.25d45a39d66e4d856a16.png",
+    "static/media/5.png": "/static/media/5.166923fa18b0bcf0d743.png",
+    "static/media/الريان.jpg": "/static/media/الريان.d9a88b89beeb4bef016f.jpg",
+    "static/media/m1.png": "/static/media/m1.129ba28ea2030b93162f.png",
+    "static/media/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.avif": "/static/media/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.c48840b81244f0e9671b.avif",
+    "index.html": "/index.html",
+    "main.d3353d28.css.map": "/static/css/main.d3353d28.css.map",
+    "main.59d1161e.js.map": "/static/js/main.59d1161e.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3353d28.css",
+    "static/js/main.59d1161e.js"
+  ]
+}
